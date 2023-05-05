@@ -35,26 +35,26 @@ class GameFragment : Fragment() {
     // All questions must have four answers.  We'd want these to contain references to string
     // resources so we could internationalize. (Or better yet, don't define the questions in code...)
     private val questions: MutableList<Question> = mutableListOf(
-            Question(text = "What is Android Jetpack?",
-                    answers = listOf("All of these", "Tools", "Documentation", "Libraries")),
-            Question(text = "What is the base class for layouts?",
-                    answers = listOf("ViewGroup", "ViewSet", "ViewCollection", "ViewRoot")),
-            Question(text = "What layout do you use for complex screens?",
-                    answers = listOf("ConstraintLayout", "GridLayout", "LinearLayout", "FrameLayout")),
-            Question(text = "What do you use to push structured data into a layout?",
-                    answers = listOf("Data binding", "Data pushing", "Set text", "An OnClick method")),
-            Question(text = "What method do you use to inflate layouts in fragments?",
-                    answers = listOf("onCreateView()", "onActivityCreated()", "onCreateLayout()", "onInflateLayout()")),
-            Question(text = "What's the build system for Android?",
-                    answers = listOf("Gradle", "Graddle", "Grodle", "Groyle")),
-            Question(text = "Which class do you use to create a vector drawable?",
-                    answers = listOf("VectorDrawable", "AndroidVectorDrawable", "DrawableVector", "AndroidVector")),
-            Question(text = "Which one of these is an Android navigation component?",
-                    answers = listOf("NavController", "NavCentral", "NavMaster", "NavSwitcher")),
-            Question(text = "Which XML element lets you register an activity with the launcher activity?",
-                    answers = listOf("intent-filter", "app-registry", "launcher-registry", "app-launcher")),
-            Question(text = "What do you use to mark a layout for data binding?",
-                    answers = listOf("<layout>", "<binding>", "<data-binding>", "<dbinding>"))
+            Question(text = "Where is the Law Altar located in \"Runescape\"?",
+                    answers = listOf("Entrana", "Falador", "Oog'lag", "Ardougne")),
+            Question(text = "Who discovered how to kill lizards?",
+                    answers = listOf("The Slayer Masters", "The Wise Old Man", "Admiral Bake", "BC Ko")),
+            Question(text = "How many eyes does a lizard have?",
+                    answers = listOf("Three", "Two", "Six", "Four")),
+            Question(text = "What order do lizards belong to?",
+                    answers = listOf("Squamata", "Mammal", "Insecta", "Reptilian")),
+            Question(text = "What was the first Grandmaster quest released?",
+                    answers = listOf("While Guthix Sleeps", "Ritual of the Marrhajat", "Plague's End", "Cook's Assistant")),
+            Question(text = "What area of training Runecrafting has been released and consists of three floors?",
+                    answers = listOf("Runespan", "Runecrafter's Guild", "Rune spam", "Stronghold of Security")),
+            Question(text = "What is the name of the oldest tortoise ever recorded?",
+                    answers = listOf("Mibbiwocket", "Healthorg", "Snookums", "Gini")),
+            Question(text = "What is a tortoise's favourite food?",
+                    answers = listOf("Vegetables", "Sharks", "Kebabs", "Peanut Butter")),
+            Question(text = "Name the explorer who discovered the world's oldest tortoise.",
+                    answers = listOf("Admiral Bake", "Captain Cook", "Ensign Chef", "The Recruiter")),
+            Question(text = "Which race breeds tortoises for battle?",
+                    answers = listOf("Gnomes", "Orks", "Elves", "Trolls"))
     )
 
 
