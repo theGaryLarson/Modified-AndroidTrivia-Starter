@@ -22,5 +22,11 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!-- fixme: this is not setting the background color as expected -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <!-- fixme: this is not setting the background color as expected -->
+    <style name="MyActionBar">
+        <item name="android:background">@color/navHeaderBackground</item> <!-- Replace with your desired color -->
     </style>
 </resources>
